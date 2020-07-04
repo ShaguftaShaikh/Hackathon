@@ -347,13 +347,13 @@ if (typeof NProgress != 'undefined') {
 		
 		
 		var arr_data1 = [
-			[gd(2012, 1, 1), 17],
-			[gd(2012, 1, 2), 74],
-			[gd(2012, 1, 3), 6],
-			[gd(2012, 1, 4), 39],
-			[gd(2012, 1, 5), 20],
-			[gd(2012, 1, 6), 85],
-			[gd(2012, 1, 7), 7]
+			[gd(2020, 1, 10), 17],
+			[gd(2020, 1, 20), 74],
+			[gd(2020, 1, 30), 6],
+			[gd(2020, 2, 1), 39],
+			[gd(2020, 2, 20), 20],
+			[gd(2020, 2, 28), 85],
+			[gd(2020, 3, 1), 7]
 		];
 
 		var arr_data2 = [
@@ -418,7 +418,7 @@ if (typeof NProgress != 'undefined') {
           series: {
             lines: {
               show: false,
-              fill: true
+              fill: false
             },
             splines: {
               show: true,
